@@ -1,12 +1,13 @@
 <div class="top-heading">
-  <h1>Heading One</h1>
+  <h1 class="open-heading">WDIM268 Final Project Website</h1>
 </div>
 
 <header class="site-header">
 
+
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">Site Title</a>
+    <!--<a class="site-title" href="{{ site.baseurl }}/">Site Title</a>-->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -18,11 +19,15 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+
+          <a class="page-link" href="">home</a>
+          <a class="page-link" href="">about</a>
+          <a class="page-link" href="">services</a>
+          <a class="page-link" href="">portfolio</a>
+          <a class="page-link" href="">blog</a>
+          <a class="page-link" href="">contact</a>
+          <a class="page-link" href="">pricing</a>
+
       </div>
     </nav>
 
