@@ -1,0 +1,25 @@
+
+ruby command line 1:
+
+cd C:\Users\Little Missy\Documents\WDIM 268 - Final\wdim268final
+
+jekyll build --watch
+
+________________________________l
+
+ruby command line 2:
+
+cd C:\Users\Little Missy\Documents\WDIM 268 - Final\wdim268final
+jekyll serve
+
+________________________________
+
+Sublime
+
+> file
+
+> > open folder
+
+> > > Documents
+
+> > > > wdim268final
