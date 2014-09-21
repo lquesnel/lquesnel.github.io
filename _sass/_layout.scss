@@ -847,7 +847,7 @@
 
 
     max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
+    max-width: calc(800px - (30px * 0));
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
@@ -899,4 +899,152 @@
     font-size: 15px;
     line-height: 25px;
     padding-top: 10px;
+
+    h4 {
+        padding-top: 20px;
+        color: #525551;
+        font-weight: bold;
+        line-height: 20px;
+
+        span {
+            font-weight: bold;
+            color: #d05606;
+        }
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        height: 500px;
+    }
+}
+
+
+/*PORTFOLIO*//////
+.port_nav {
+    padding-bottom: 10px;
+
+    a {
+        color: #000000;
+    }
+
+    ul {
+        width: 130%;
+        margin: -10px;
+    }
+}
+
+.port_subhead {
+    padding-bottom: 34px;
+    padding-top: 19px;
+}
+
+.content_box_one {
+    background-color: #f0f0f0;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    width: 65%;
+    padding-top: 20px;
+    border: 1px solid rgba(134, 134, 134, 0.4);
+
+    figure {
+        float: left;
+        margin-right: -25px;
+    }
+}
+
+.content_box_text {
+    h2 {
+        color: #4b4d4a;
+        font-size: 20px;
+        line-height: 19px;
+        font-weight: 700;
+        margin-top: 15px;
+        /* margin-left: -8px; */
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 10.5px;
+
+        span {
+            font-weight: bold;
+            color: #db8146;
+        }
+    }
+}
+
+.port_one, {
+    width: 85%;
+}
+
+.content_box_two {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    width: 65%;
+    padding-top: 20px;
+    border: 1px solid rgba(134, 134, 134, 0.4);
+
+    figure {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+.content_box_other {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+    overflow: hidden;
+    width: 65%;
+    padding-top: 20px;
+    border: 1px solid rgba(134, 134, 134, 0.4);
+    margin-bottom: 20px;
+    
+    figure {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+.box_head {
+    font-weight: bold;
+    color: #4b4d4a;
+
+    p {
+        font-size: 10.5px;
+    }
+}
+
+.box_head_other {
+    font-weight: bold;
+    color: #4b4d4a;
+
+    p {
+        font-size: 10.5px;
+    }
+}
+
+.port_layout {
+    margin: 3px;
+
+    p {
+        font-size: 11px;
+        padding-right: 5px;
+    }
+}
+
+.port_layout_other {
+    margin: 3px;
+
+    p {
+        font-size: 11px;
+        padding-right: 5px;
+    }
 }
