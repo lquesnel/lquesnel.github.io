@@ -21,7 +21,6 @@
 .head_search {
     float: right;
     max-width: 100%;
-    margin-top: 10px;
 }
 
 .site-header {
@@ -293,7 +292,7 @@
 .latest-list {
   margin-left: -30px;
   float: left;
-  width: 230px;
+  width: 215px;
   padding-right: 10px;
   padding-bottom: 20px;
 
@@ -322,7 +321,7 @@
 .recent-list {
   margin-left: -30px;
   float: left;
-  width: 230px;
+  width: 215px;
   padding-right: 10px;
 
   .recent-subhead {
@@ -344,7 +343,7 @@
 .adver-list {
   margin-left: -30px;
   float: left;
-  width: 230px;
+  width: 200px;
   padding-right: 10px;
 
 
@@ -369,6 +368,27 @@
     .tweet-subhead {
       list-style: none;
     }
+}
+
+.tweet_bub {
+    width: 14%;
+    float: right;
+    position: absolute;
+}
+
+.tweet_bird {
+    position: relative;
+    width: 95px;
+    left: 40px;
+    top: 100px;
+}
+
+.tweet {
+    position: absolute;
+}
+
+.tweet_link {
+    font-size: 8px;
 }
 
 .latest-list,
@@ -632,6 +652,66 @@
     color: #FFFFFF;
 }
 
+/**WHITE PART OF HOME**/
+
+/*.hover_img {
+    background: url("../images/banner_strip.png") 0 0 no-repeat;
+    width: 100%
+}
+
+.hover_img:hover {
+    background: url("../images/color_header.png") 0 0 no-repeat;
+    z-index: 1;
+}
+*/
+
+.home_content_figure {
+    float: left;
+    width: 47%;
+    padding: 0px 10px 0px 0px;
+
+    figcaption {
+        font-family: 'Open Sans Condensed';
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        span {
+            font-style: italic;
+            color: #227ab0;
+        }
+    }
+}
+
+.page-heading {
+    font-weight: 700;
+    color: #227ab0;
+    font-size: 25px;
+
+}
+
+.home_list {
+    float: left;
+    width: 50%;
+    margin-left: 5px;
+
+    h2 {
+        font-size: 16px;
+    }
+}
+    
+.main_ul {
+    float: left;
+    list-style: none;
+    width: 47%;
+    margin-left: 10px;
+}
+
+.li_check {
+    background: url("../images/check_point.png");
+    text-indent: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 /**
  * Posts
  */

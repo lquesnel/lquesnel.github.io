@@ -18,22 +18,44 @@ layout: default
 
 <div class="wrapper">
   <div class="home">
+    <div class="home_content_head">
 
-    <h1 class="page-heading">Post</h1>
+      <!--<div class="hover_img">
+        <img class="img_hover" src="images/banner_strip.png" />
+      </div>  -->
+    
+    <div class="home_content">
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <figure class="home_content_figure">
+        <img alt="Home Image" src="images/main_page_middle.png" />
+          <figcaption>
+            <span>Freelance Designer</span>- January 2014
+          </figcaption>
+      </figure>
 
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">TITLE BLAH BLAH</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
+            <div class="home_list">
+              <h1 class="page-heading">We make the best websites!</h1>
+                <h2>Because web design is our passion<br>and that's what we do.</h2>
+                  
+                <ul class="main_ul">
+                  <li class="li_check">Design</li>
+                  <li class="li_check">(X)HTML/CSS</li>
+                  <li class="li_check">Javascript</li>
+                  <li class="li_check">Custom CMS (BVD)</li>
+                </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                <ul class="main_ul">
+                  <li class="li_check">Project Management</li>
+                  <li class="li_check">Hosting</li>
+                  <li class="li_check">Support</li>
+                </ul>
+            </div>
 
+          <div class="main_comment">
+          </div>
+
+    </div>
   </div>
+</div>
+
 </div>
