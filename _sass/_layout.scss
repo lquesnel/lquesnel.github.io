@@ -663,11 +663,58 @@
 /**WHITE PART OF HOME**/
 
 .main_tab {
-
-    height: 65px;
     margin-left: -85px;
-    border-bottom: 1px solid #DDD;
-    background: url("../images/back_header.png");
+    width: 123%;
+
+      div:first-child {
+        margin-left: 8%;
+        border-top-left-radius: 8px;
+      }
+
+      div:last-child {
+        border-top-right-radius: 8px;
+      }
+}
+
+.tab {
+    float: left;
+    height: 65px;
+    border: 1px solid #AAA;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans;
+    background-color: #DDD;
+    color: #AAA;
+    width: 21%;
+    -webkit-box-shadow: 0 0 110px 1px rgba(41, 41, 41, 0.2);
+    box-shadow:   0 0 110px 1px rgba(41, 41, 41, 0.2);
+    margin-bottom: 20px;
+
+    img {
+        float: left;
+        margin: 10px 0px 7px 9px;
+    }
+
+    &:hover {
+      background-color: #f6f5f5;
+
+      .tab_title {
+        color: #d15806;
+      }
+    }
+}
+
+.tab_p {
+    float: left;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.tab_title {
+    float: left;
+    margin: 10px 10px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .home_content_figure {
@@ -1259,7 +1306,6 @@
 }
 
 .column-options th, .column-options td {
-    font-family: sans-serif;
     font-weight: normal;
     color: #434343;
     background-color: #f3f3f3;
@@ -1333,7 +1379,6 @@
     border:1px solid #dcdcdc;
     display:inline-block;
     color:#777777;
-    font-family:arial;
     font-size:15px;
     font-weight:bold;
     font-style:normal;
